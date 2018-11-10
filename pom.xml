@@ -9,51 +9,49 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>2.47.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>1.0.2</version>
-            <scope>test</scope>
-        </dependency>
 
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>1.0.2</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
+            <version>1.2.5</version>
         </dependency>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>info.cukes</groupId>
-            <artifactId>cucumber-junit</artifactId>
+            <artifactId>cucumber-java</artifactId>
             <version>1.2.5</version>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>1.0.2</version>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-api</artifactId>
+            <version>2.47.1</version>
+            <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>2.47.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>2.47.1</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
 
 </project>

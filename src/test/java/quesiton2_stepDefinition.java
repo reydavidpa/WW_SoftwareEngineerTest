@@ -1,17 +1,16 @@
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
-import cucumber.annotation.en.Given;
-import cucumber.annotation.en.Then;
-import cucumber.annotation.en.When;
-
-public class question2 {
+public class quesiton2_stepDefinition {
     WebDriver driver = null;
 
     @Given("^I have open the browser$")
     public void openBrowser() {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
     }
 
     @When("^I open Facebook website$")
