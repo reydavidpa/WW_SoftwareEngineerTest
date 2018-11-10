@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: runTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 21.338 sec <<< FAILURE!
+Then I verify loaded page title matches “WW (Weight Watchers): Weight Loss & Wellness Help”(Scenario: People conducting meetings on zip code 10011)  Time elapsed: 0.008 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[“WW (Weight Watchers): Weight Loss & Wellness Help”]> but was:<[WW (Weight Watchers): Weight Loss & Wellness Help]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at quesiton2_stepDefinition.i_verify_loaded_page_title_matches_page_title(quesiton2_stepDefinition.java:26)
+	at ?.Then I verify loaded page title matches “WW (Weight Watchers): Weight Loss & Wellness Help”(question2.feature:6)
+
+Scenario: People conducting meetings on zip code 10011  Time elapsed: 0.008 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[“WW (Weight Watchers): Weight Loss & Wellness Help”]> but was:<[WW (Weight Watchers): Weight Loss & Wellness Help]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at quesiton2_stepDefinition.i_verify_loaded_page_title_matches_page_title(quesiton2_stepDefinition.java:26)
+	at ?.Then I verify loaded page title matches “WW (Weight Watchers): Weight Loss & Wellness Help”(question2.feature:6)
+
