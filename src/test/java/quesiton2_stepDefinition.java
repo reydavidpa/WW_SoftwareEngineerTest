@@ -15,7 +15,7 @@ public class quesiton2_stepDefinition {
 
     @When("^I open Facebook website$")
     public void goToFacebook() {
-        driver.navigate().to("https://www.facebook.com/");
+        driver.get("https://www.facebook.com/");
     }
 
     @Then("^Login button should exits$")

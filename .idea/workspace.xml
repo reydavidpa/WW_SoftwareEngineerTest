@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd9c4fd-daea-4477-a4b1-c946f09bbbe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/question2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/question2.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/question2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/feature/question2.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/runTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/question2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +27,7 @@
         <counts>
           <entry key="Question2" value="14" />
           <entry key="feature" value="3" />
-          <entry key="java" value="162" />
+          <entry key="java" value="172" />
           <entry key="question2" value="3" />
           <entry key="xml" value="65" />
         </counts>
@@ -44,7 +35,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="3" />
-          <entry key="JAVA" value="176" />
+          <entry key="JAVA" value="186" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="65" />
         </counts>
@@ -78,14 +69,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="391">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,8 +141,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="430" />
-    <option name="y" value="43" />
+    <option name="x" value="435" />
+    <option name="y" value="39" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -208,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541831108501" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541831250995" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -268,15 +259,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="runTest - 2018.11.10 at 00h 56m 12s.xml">
-      <configuration name="runTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 00h 56m 50s.xml">
-      <configuration name="runTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 00h 58m 31s.xml">
-      <configuration name="runTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="runTest - 2018.11.10 at 01h 04m 29s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
@@ -298,10 +280,18 @@
     <history-entry file="runTest - 2018.11.10 at 01h 23m 08s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="runTest - 2018.11.10 at 01h 24m 46s.xml">
+      <configuration name="runTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="runTest - 2018.11.10 at 01h 26m 10s.xml">
+      <configuration name="runTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="runTest - 2018.11.10 at 01h 27m 45s.xml">
+      <configuration name="runTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="212" y="16" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="435" y="39" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -378,14 +368,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="391">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
           </folding>
         </state>
       </provider>
