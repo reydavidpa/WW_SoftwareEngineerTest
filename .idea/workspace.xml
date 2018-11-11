@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd9c4fd-daea-4477-a4b1-c946f09bbbe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/homepageObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchResultsObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/setUp/driverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/question2.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/quesiton2_stepDefinition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/runTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/setUp/driverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/meetings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/meetingScheduleObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/question2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/question2.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/quesiton2_stepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setUp/driverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setUp/driverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/meetingSearchObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/meetingSearchObjects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/quesiton2_stepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/setUp/driverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/setUp/driverManager.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,31 +35,31 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Question2" value="14" />
-          <entry key="feature" value="3" />
-          <entry key="java" value="172" />
+          <entry key="feature" value="18" />
+          <entry key="java" value="1424" />
           <entry key="question2" value="3" />
-          <entry key="xml" value="65" />
+          <entry key="xml" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="3" />
-          <entry key="JAVA" value="186" />
+          <entry key="Cucumber" value="18" />
+          <entry key="JAVA" value="1438" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="65" />
+          <entry key="XML" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Question2" value="1" />
           <entry key="feature" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Cucumber" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -111,49 +109,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="398">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchResultsObjects.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/quesiton2_stepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="401">
+              <caret line="68" column="57" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/setUp/driverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,12 +132,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/homepageObjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/meetings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/meetingScheduleObjects.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -175,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchObjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
@@ -187,23 +179,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.0a7/selenium-support-2.0a7.jar!/org/openqa/selenium/support/FindBy.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/runTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="51">
               <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -215,8 +193,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/question2.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/setUp/driverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -254,14 +244,17 @@
         <option value="$PROJECT_DIR$/src/main/pageObjects/homePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/homePageObjects/homePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/homePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/setUp/driverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/findMeetingObjects.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchObjects.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchResultsObjects.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/homepageObjects.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/question2.feature" />
         <option value="$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchObjects.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjects/meetingScheduleObjects.java" />
+        <option value="$PROJECT_DIR$/src/test/java/setUp/driverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/question2.feature" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/quesiton2_stepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helpers/meetings.java" />
       </list>
     </option>
   </component>
@@ -273,17 +266,20 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="269" />
-    <option name="y" value="54" />
-    <option name="width" value="1806" />
-    <option name="height" value="955" />
+    <option name="x" value="524" />
+    <option name="y" value="1" />
+    <option name="width" value="1398" />
+    <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,6 +324,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WW_SoftwareEngineerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WW_SoftwareEngineerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -338,38 +342,45 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="setUp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WW_SoftwareEngineerTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WW_SoftwareEngineerTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541883973658" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541908433807" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pageObjects" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="www" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\custo\IdeaProjects\WW_SoftwareEngineerTest\src\test\java" />
       <recent name="C:\Users\reyda_000\IdeaProjects\WW_SoftwareEngineerTest\src\main\resources" />
       <recent name="C:\Users\reyda_000\IdeaProjects\WW_SoftwareEngineerTest\src\test\java" />
       <recent name="C:\Users\reyda_000\IdeaProjects\WW_SoftwareEngineerTest\src\main\resources\feature" />
       <recent name="C:\Users\reyda_000\IdeaProjects\WW_SoftwareEngineerTest\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pageObjects" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="www" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,7 +395,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.runTest">
+    <configuration name="Feature: question2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/question2.feature" />
+      <option name="GLUE" value="setUp" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="WW_SoftwareEngineerTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: question2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="runTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WW_SoftwareEngineerTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -393,9 +422,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.runTest" />
+      <item itemvalue="Cucumber java.Feature: question2" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.runTest" />
+        <item itemvalue="Cucumber java.Feature: question2" />
       </list>
     </recent_temporary>
   </component>
@@ -413,42 +447,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="runTest - 2018.11.10 at 15h 37m 54s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 22m 27s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 38m 30s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 23m 44s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 38m 51s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 26m 55s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 40m 17s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 30m 43s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 41m 03s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 31m 09s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 41m 11s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 31m 37s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 51m 13s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 32m 43s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 53m 27s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 40m 09s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 54m 47s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 40m 47s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="runTest - 2018.11.10 at 15h 57m 57s.xml">
+    <history-entry file="runTest - 2018.11.10 at 22h 46m 07s.xml">
       <configuration name="runTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="269" y="54" width="1806" height="955" extended-state="0" />
+    <frame x="239" y="1" width="1683" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045818" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21256931" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,15 +491,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28989038" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.42143726" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38683602" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7223881" weight="0.4203233" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4725944" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6731343" weight="0.47228637" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.27761194" side_tool="true" weight="0.4203233" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32886723" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32886723" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32794458" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,22 +527,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/src/test/java/helpers/meetings.java</url>
+          <line>16</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -521,6 +543,21 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>leadersWebElemets.get(i).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>meetingSearchObjects.meetingSearchButton.click();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>meetingSearchObjects.meetingSearchButton</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>assertEquals(expectedPageTitle,driverManager.driver.getTitle())</expression-string>
         <language-id>JAVA</language-id>
@@ -556,16 +593,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/question2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/runTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -573,19 +600,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/setUp/driverManager.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/setUp/driverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.0a7/selenium-support-2.0a7.jar!/org/openqa/selenium/support/FindBy.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/setUp/driverManager.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.0a7/selenium-support-2.0a7.jar!/org/openqa/selenium/support/FindBy.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchResultsObjects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -600,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/meetingSearchObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
@@ -610,51 +626,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/homepageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/homepageObjects.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/setUp/driverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/question2.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setUp/driverManager.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="398">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/quesiton2_stepDefinition.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/meetingScheduleObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="80">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/quesiton2_stepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="68" column="57" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/meetings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,7 +741,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

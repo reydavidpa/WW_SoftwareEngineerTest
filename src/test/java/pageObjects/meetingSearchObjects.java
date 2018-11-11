@@ -10,6 +10,9 @@ public class meetingSearchObjects {
     @FindBy(id = "meetingSearch")
     public WebElement meetingSearch;
 
+    @FindBy(css = "button[ng-click='mfsearch.$valid && searchSubmit(searchText)']")
+    public WebElement meetingSearchButton;
+
     public meetingSearchObjects() {
         PageFactory.initElements(driverManager.driver, this);
     }
