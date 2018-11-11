@@ -5,8 +5,12 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import setUp.driverManager;
-
 import java.util.List;
+
+/*
+    Page Objects for Find-a-Meeting Results Page
+    URL: https://www.weightwatchers.com/us/find-a-meeting/search?search={zip code}
+ */
 
 public class meetingSearchResultsObjects {
 

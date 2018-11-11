@@ -7,6 +7,11 @@ import org.openqa.selenium.support.PageFactory;
 import setUp.driverManager;
 import java.util.List;
 
+/*
+    Page Objects for meetings weekly schedule
+    URL: https://www.weightwatchers.com/us/find-a-meeting/{id}/{location name}
+ */
+
 public class meetingScheduleObjects {
     @FindAll(@FindBy(css = ".schedule-detailed .schedule-detailed-day:nth-child(1) .schedule-detailed-day-meetings-item-leader"))
     public List<WebElement> sundayLeaders;

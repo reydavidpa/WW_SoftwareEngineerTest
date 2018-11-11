@@ -8,7 +8,19 @@ import java.util.Map;
 import java.util.function.*;
 import java.util.stream.*;
 
+/*
+    Helper class to process information displayed on meetings-weekly-schedule page
+ */
+
 public class meetings {
+
+
+    /*
+        Method to print out the names(s) and the number of times each person(s) is conducting the meeting that particular day
+        Parameters:
+            day: particular weekday
+        Format example: MONDAY {DANA F.=1, LISA S.=2}
+    */
     public static void getScheduleSummary(String day) {
         meetingScheduleObjects meetingScheduleObjects = new meetingScheduleObjects();
         switch (day){
@@ -40,10 +52,15 @@ public class meetings {
 
     }
 
-    private static Map<String, Long> getLeadersPerDayMap(List<WebElement> leadersWebElemets) {
-        String[] leaders = new String[leadersWebElemets.size()];
-        for (int i=0; i<leadersWebElemets.size(); i++)
-            leaders[i]=(leadersWebElemets.get(i).getText());
+    /*
+        Method to return a map collection of names(s) and the number of times is found in a list of Web Elements
+        Parameters:
+            leadersWebElements: List of web elements to obtain the map collection of names and concurrences
+    */
+    private static Map<String, Long> getLeadersPerDayMap(List<WebElement> leadersWebElements) {
+        String[] leaders = new String[leadersWebElements.size()];
+        for (int i=0; i<leadersWebElements.size(); i++)
+            leaders[i]=(leadersWebElements.get(i).getText());
         List<String> items = Arrays.asList(leaders);
         Map<String, Long> result =
                 items.stream().collect(
