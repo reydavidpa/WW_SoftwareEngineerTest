@@ -1,5 +1,20 @@
-"# WW_SoftwareEngineerTest" 
+# WW_SoftwareEngineerTest 
 
+## SET UP
+1. Install maven (current version is 3.6.0)
+  
+      1.1 Set MAVEN_HOME system environment variable to be {absolutePath}\apache-maven-3.6.0\bin
+2. Install java (latest version is 11.0.1)
+  
+      2.1 Set JAVA_HOME system environment variable to be {absolutePath}\Java\jdk-11.0.1\bin
+3. Add MAVEN_HOME and JAVA_HOME to the Path system environment variable
+4. Verify maven is properly configured by executing the following command 'mvn -v'. Maven and Jave versions will be displayed.
+5. Clone github repo at desire location. Execute folloing command 'git clone https://github.com/reydavidpa/WW_SoftwareEngineerTest.git'
+6. Enter the WW_SoftwareEngineerTest directory
+7. Run the tests by executing command 'mvn clean test' 
+
+
+## QUESTIONS
 Question 1:
  
 There is a file containing a word and its possible meanings (like a Dictionary). The contents of the file look like this:
