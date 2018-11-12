@@ -37,10 +37,10 @@ public class files {
         BufferedReader reader;
         try {
             System.out.println("\n --- PRINTING OUT DICTIONARY --- ");
+            System.out.println("FILE PATH: "+filePath);
             reader = new BufferedReader(new FileReader(filePath));
             String line = reader.readLine();
             while (line != null) {
-                //System.out.println(line);
                 System.out.println(line.split(" - ")[0]);
                 for(int i=0; i<line.split(" - ")[1].split(",").length; i++)
                     System.out.println("\t"+line.split(" - ")[1].split(",")[i].trim());

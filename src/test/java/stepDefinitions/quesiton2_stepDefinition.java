@@ -26,19 +26,19 @@ public class quesiton2_stepDefinition {
         driverManager.driver.get(url);
     }
 
-    @Then("^I verify loaded page title matches “(.*)”$")
+    @Then("^I verify loaded page title matches \"(.*)\"$")
     public void i_verify_loaded_page_title_matches(String expectedPageTitle) throws Throwable {
         //Assert page title of loaded page
         assertEquals(expectedPageTitle, driverManager.driver.getTitle());
     }
 
-    @When("^On the right corner of the page, click on “Find a Studio”$")
+    @When("^On the right corner of the page, click on \"Find a Studio\"$")
     public void on_the_right_corner_of_the_page_click_on_Find_a_Studio() throws Throwable {
         //Click a button on the homepage
         new homepageObjects().findAStudioButton.click();
     }
 
-    @Then("^Verify loaded page title contains “(.*)”$")
+    @Then("^Verify loaded page title contains \"(.*)\"$")
     public void verify_loaded_page_title_contains(String expectedPageTitle) throws Throwable {
         //Assert page title of loaded page
         assertEquals(expectedPageTitle, driverManager.driver.getTitle());

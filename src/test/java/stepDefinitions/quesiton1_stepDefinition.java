@@ -20,7 +20,7 @@ public class quesiton1_stepDefinition {
         if (doesFileExist(filePath))
             System.out.println("FILE FOUND AT "+filePath);
         else
-            System.out.println("FILE NOT FOUND AT "+filePath);
+            System.out.println("\nFILE NOT FOUND AT "+filePath);
     }
 
     @Then("^Read each word and its possible meanings and print them out\\.$")
