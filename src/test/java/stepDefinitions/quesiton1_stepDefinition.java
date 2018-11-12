@@ -19,8 +19,10 @@ public class quesiton1_stepDefinition {
         //Print out weather file exists at path or not
         if (doesFileExist(filePath))
             System.out.println("FILE FOUND AT "+filePath);
-        else
-            System.out.println("\nFILE NOT FOUND AT "+filePath);
+        else {
+            System.out.println("\n______________________________ QUESTION 2 ______________________________");
+            System.out.println("\nFILE NOT FOUND AT " + filePath);
+        }
     }
 
     @Then("^Read each word and its possible meanings and print them out\\.$")
