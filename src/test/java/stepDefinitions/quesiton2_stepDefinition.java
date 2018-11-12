@@ -15,8 +15,7 @@ public class quesiton2_stepDefinition {
 
     @Given("^I open the browser$")
     public void openBrowser() {
-        System.out.println("______________________________ QUESTION 2 ______________________________");
-
+        System.out.println("______________________________ QUESTION 2 ______________________________\n");
         driverManager.initialize();
     }
 

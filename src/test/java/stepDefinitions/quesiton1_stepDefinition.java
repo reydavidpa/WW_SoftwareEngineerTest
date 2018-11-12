@@ -20,7 +20,7 @@ public class quesiton1_stepDefinition {
         if (doesFileExist(filePath))
             System.out.println("FILE FOUND AT "+filePath);
         else {
-            System.out.println("\n______________________________ QUESTION 2 ______________________________");
+            System.out.println("\n______________________________ QUESTION 1 ______________________________");
             System.out.println("\nFILE NOT FOUND AT " + filePath);
         }
     }
