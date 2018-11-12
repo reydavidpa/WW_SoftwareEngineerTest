@@ -7,7 +7,6 @@ import java.util.Random;
  */
 
 public class numbers {
-
     /*
          Method to create an array of random numbers
          Parameters:

@@ -60,8 +60,8 @@ public class quesiton2_stepDefinition {
 
         //Printing out first result's title and distance
         System.out.println("\n--- FIRST RESULT - CLOSEST LOCATION FOR ZIP CODE 10011 ---");
-        System.out.println("TITLE: " + meetingSearchResultsObjects.titles.get(0).getText());
-        System.out.println("DISTANCE: " + meetingSearchResultsObjects.distances.get(0).getText() + "\n");
+        System.out.println("Title: " + meetingSearchResultsObjects.titles.get(0).getText());
+        System.out.println("Distance: " + meetingSearchResultsObjects.distances.get(0).getText() + "\n");
 
     }
 
@@ -69,34 +69,34 @@ public class quesiton2_stepDefinition {
     public void click_on_the_first_search_result_and_you_should_see_names_of_the_person_conducting_the_meeting_on_the_scheduled_time_right_under_time_for_each_day() throws Throwable {
         meetingSearchResultsObjects.titles.get(0).click();
 
-        System.out.println("--- DAILY MEETINGS GROUP BY CONDUCTING PERSON = NUMBER OF TIMES PER DAY ---");
+        System.out.println("--- DAILY MEETINGS GROUP BY CONDUCTING PERSON AND TOTAL NUMBER OF TIMES PER DAY ---");
 
         //Print out schedule summary for Sunday with specific format
-        System.out.print("SUNDAY ");
+        System.out.println("SUNDAY");
         meetings.getScheduleSummary("Sun");
 
         //Print out schedule summary for Monday with specific format
-        System.out.print("MONDAY ");
+        System.out.println("\nMONDAY ");
         meetings.getScheduleSummary("Mon");
 
         //Print out schedule summary for Tuesday with specific format
-        System.out.print("TUESDAY ");
+        System.out.println("\nTUESDAY ");
         meetings.getScheduleSummary("Tue");
 
         //Print out schedule summary for Wednesday with specific format
-        System.out.print("WEDNESDAY ");
+        System.out.println("\nWEDNESDAY ");
         meetings.getScheduleSummary("Wed");
 
         //Print out schedule summary for Thursday with specific format
-        System.out.print("THURSDAY ");
+        System.out.println("\nTHURSDAY ");
         meetings.getScheduleSummary("Thu");
 
         //Print out schedule summary for Friday with specific format
-        System.out.print("FRIDAY ");
+        System.out.println("\nFRIDAY ");
         meetings.getScheduleSummary("Fri");
 
         //Print out schedule summary for Saturday with specific format
-        System.out.print("SATURDAY ");
+        System.out.println("\nSATURDAY ");
         meetings.getScheduleSummary("Sat");
     }
 }

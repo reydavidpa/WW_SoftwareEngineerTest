@@ -13,8 +13,6 @@ import java.util.stream.*;
  */
 
 public class meetings {
-
-
     /*
         Method to print out the names(s) and the number of times each person(s) is conducting the meeting that particular day
         Parameters:
@@ -25,25 +23,25 @@ public class meetings {
         meetingScheduleObjects meetingScheduleObjects = new meetingScheduleObjects();
         switch (day){
             case "Sun":
-                System.out.println(getLeadersPerDayMap(meetingScheduleObjects.sundayLeaders));
+                printoutGroupingLeadersDailySchedule(getLeadersPerDayMap(meetingScheduleObjects.sundayLeaders));
                 break;
             case "Mon":
-                System.out.println(getLeadersPerDayMap(meetingScheduleObjects.mondayLeaders));
+                printoutGroupingLeadersDailySchedule(getLeadersPerDayMap(meetingScheduleObjects.mondayLeaders));
                 break;
             case "Tue":
-                System.out.println(getLeadersPerDayMap(meetingScheduleObjects.tuesdayLeaders));
+                printoutGroupingLeadersDailySchedule(getLeadersPerDayMap(meetingScheduleObjects.tuesdayLeaders));
                 break;
             case "Wed":
-                System.out.println(getLeadersPerDayMap(meetingScheduleObjects.wednesdayLeaders));
+                printoutGroupingLeadersDailySchedule(getLeadersPerDayMap(meetingScheduleObjects.wednesdayLeaders));
                 break;
             case "Thu":
-                System.out.println(getLeadersPerDayMap(meetingScheduleObjects.thurdayLeaders));
+                printoutGroupingLeadersDailySchedule(getLeadersPerDayMap(meetingScheduleObjects.thurdayLeaders));
                 break;
             case "Fri":
-                System.out.println(getLeadersPerDayMap(meetingScheduleObjects.fridayLeaders));
+                printoutGroupingLeadersDailySchedule(getLeadersPerDayMap(meetingScheduleObjects.fridayLeaders));
                 break;
             case "Sat":
-                System.out.println(getLeadersPerDayMap(meetingScheduleObjects.saturdayLeaders));
+                printoutGroupingLeadersDailySchedule(getLeadersPerDayMap(meetingScheduleObjects.saturdayLeaders));
                 break;
             default:
                 System.err.println("Day not found!");
@@ -71,5 +69,16 @@ public class meetings {
         return result;
     }
 
-
+    /*
+        Method to print out a hash map with a specific format
+        Parameters:
+            leadersPerDayMapResults: hash map containing daily results for all leaders per day
+        Format example:
+            Name: <XXXXX> Total: <XX> times
+    */
+    private static void printoutGroupingLeadersDailySchedule(Map<String, Long> leadersPerDayMapResults) {
+        for (Map.Entry<String, Long> entry : leadersPerDayMapResults.entrySet()) {
+            System.out.println("Name: " + entry.getKey()+" Total: "+entry.getValue()+ " Times");
+        }
+    }
 }
